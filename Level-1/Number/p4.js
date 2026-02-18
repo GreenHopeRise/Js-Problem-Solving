@@ -8,3 +8,4 @@ function sumOfDigit(n){
     return sum
 }
 console.log(sumOfDigit(56))
+// done baby 
