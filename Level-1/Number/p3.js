@@ -21,3 +21,5 @@ function fibo(n){
 }
 
 console.log(fibo(5))
+
+this one is also document
