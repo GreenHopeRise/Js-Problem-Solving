@@ -51,3 +51,36 @@ function vowleCounter(x){
     return count
 }
 console.log(vowleCounter('ami onek vhalo achi'))
+
+
+
+
+// Capitalize the first letter of each word.
+function capSentance(x){
+    let y = x.split(' ')
+    for(let i = 0; i< y.length; i++){
+        y[i]=y[i][0].toUpperCase()+ y[i].slice(1)
+    }
+    let sentance = y.join(' ')
+    return sentance
+
+}
+console.log(capSentance('hi ami koi'))
+
+
+// Find the longest word in a sentence.
+
+function longestWord(x){
+    let max = 0
+    let word =''
+    let arr = x.split(' ')
+    for(let i = 0; i<arr.length;i++){
+        if(arr[i].length >max){
+            max= arr[i].length
+            word = arr[i]
+
+        }
+    }
+    return word
+}
+console.log(longestWord('mon amar taito j aj pekhom tule nache re'))

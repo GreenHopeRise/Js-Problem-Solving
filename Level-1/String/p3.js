@@ -22,5 +22,3 @@ function vowel(str){
 }
 
 console.log(vowel('ami vhalo nai'))
-
-
