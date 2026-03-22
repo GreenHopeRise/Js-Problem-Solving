@@ -9,3 +9,4 @@ function sumOfDigit(n){
 }
 console.log(sumOfDigit(56))
 // done baby 
+// hi nadim how are you  
